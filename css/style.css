@@ -1,0 +1,207 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONTE DOS TEXTOS DA PÁG */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #484f4e;
+}
+
+/* TOPO */
+.topo{
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 0.01px #484f4e;
+}
+.container-topo {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-topo {
+    text-decoration: none;
+    color: #484f4e;
+}
+
+.box-link-home {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.box-link-home span {
+    color: #0996c3;
+}
+
+.box-links-navegacao {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+/* BANNER */
+.banner {
+    height: 100vh;
+    background-image: url('../assets/img-fundo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-titulo {
+    padding: 30px 25px;
+    margin: 0 10px;
+    background-color: rgb(57,151,107,0.5);
+    text-align: center;
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 1px #ffffff;
+    flex: 0 1 auto;
+}
+
+.container-titulo h2 {
+    font-size: clamp(3em, 3em + 1vw, 6.4em);
+    margin-bottom: 40px;
+    flex: 0 1 auto;
+}
+
+.container-titulo p {
+    font-size: clamp(1.25em, 1.25em + 1vw, 3.2em);
+    flex: 0 1 auto;
+}
+
+/* TEXTOS - BEM-VINDO + ROTA */
+.texto {
+    width: 100%;
+    max-width: 1024px;
+    padding: 80px 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+
+.texto h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.texto p {
+    font-size: 18px;
+}
+
+/* CARDS QUARTOS */
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-quarto {
+    width: 300px;
+    border-bottom: 2px solid #39976b;
+}
+
+.card-quarto img, .card-sobre img {
+    width: 100%;
+}
+
+.card-quarto a {
+    text-decoration: none;
+    color: #484f4e;
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-quarto a p {
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+/* SOBRE */
+.container-sobre {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto 80px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card-sobre {
+    width: 368px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1 1 auto;
+}
+
+.tam-img img{
+    width: 100px;
+    height: 120px;
+}
+
+/* RODAPE */
+.rodape {
+    background-color: #39976b;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+.container-rodape {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-bottom: 2px solid rgb(36, 124, 83);
+}
+
+.card {
+    padding: 30px 0;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex: 1 1 auto;
+}
+
+.contato {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.texto-card a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px 0;
+}

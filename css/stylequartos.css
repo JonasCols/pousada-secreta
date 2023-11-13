@@ -1,0 +1,156 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONTE DOS TEXTOS DA PÁG */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #484f4e;
+}
+
+/* TOPO */
+.topo{
+    width: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 0.01px #484f4e;
+}
+.container-topo {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-topo {
+    text-decoration: none;
+    color: #484f4e;
+}
+
+.box-link-home {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.box-link-home span {
+    color: #0996c3;
+}
+
+.box-links-navegacao {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+/* IMAGEM DE FUNDO */
+.secao-imagem-fundo {
+    height: 30vh;
+    background-image: url('../assets/img-fundo.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* TEXTOS */
+.texto {
+    width: 100%;
+    max-width: 1024px;
+    padding: 80px 20px 30px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.texto h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.texto p {
+    font-size: 18px;
+}
+
+/* CONTAINER COM IMAGENS */
+.container-imagens {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-imagens img {
+    width: 310px;
+}
+
+/* LISTAS */
+.texto ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.texto ul li {
+    width: 210px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* RODAPE */
+.rodape {
+    background-color: #39976b;
+    color: #ffffff;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+.container-rodape {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-bottom: 2px solid rgb(36, 124, 83);
+}
+
+.card {
+    padding: 30px 0;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex: 1 1 auto;
+}
+
+.contato {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.texto-card a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px 0;
+}
