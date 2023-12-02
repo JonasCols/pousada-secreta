@@ -71,13 +71,13 @@ body {
 }
 
 .container-titulo h2 {
-    font-size: clamp(3em, 3em + 1vw, 6.4em);
+    font-size: clamp(2em, 2em + 1vw, 6.4em);
     margin-bottom: 40px;
     flex: 0 1 auto;
 }
 
 .container-titulo p {
-    font-size: clamp(1.25em, 1.25em + 1vw, 3.2em);
+    font-size: clamp(1.10em, 1.10em + 1vw, 3.2em);
     flex: 0 1 auto;
 }
 
